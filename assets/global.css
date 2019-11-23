@@ -1,0 +1,49 @@
+/* flex */
+.flex{
+  display: flex;
+}
+.space-around{
+  justify-content: space-around;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.column{
+  flex-direction: column;
+}
+.align-center{
+  align-items: center;
+}
+.left{
+  justify-content: left;
+}
+.center{
+  justify-content: center;
+}
+
+/* color */
+.gold{
+  color: rgb(212, 175, 54);
+}
+.bkg-dark{
+  background-color: rgb(34, 33, 33);
+}
+
+
+.mb10{
+  margin-bottom: 10px
+}
+.text-dec-none{
+  text-decoration: none;
+  color: black;
+}
+.bold{
+  font-weight: 500;
+}
+.border{
+  border: solid black 1px;
+}
+
+h2{
+  margin: 20px 20px 0px;
+}

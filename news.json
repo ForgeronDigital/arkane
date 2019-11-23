@@ -1,0 +1,38 @@
+{
+  "news1": {
+    "date": "date",
+    "title": "title",
+    "subtitle": "subtitle",
+    "content": "contenu"
+  },
+  "news2": {
+    "date": "date",
+    "title": "title",
+    "subtitle": "subtitle",
+    "content": "contenu"
+  },
+  "news3": {
+    "date": "date",
+    "title": "title",
+    "subtitle": "subtitle",
+    "content": "contenu"
+  },
+  "news4": {
+    "date": "date",
+    "title": "title",
+    "subtitle": "subtitle",
+    "content": "contenu"
+  },
+  "news5": {
+    "date": "date",
+    "title": "title",
+    "subtitle": "subtitle",
+    "content": "contenu"
+  },
+  "news6": {
+    "date": "date",
+    "title": "title",
+    "subtitle": "subtitle",
+    "content": "contenu"
+  }
+}
