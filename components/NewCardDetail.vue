@@ -1,14 +1,12 @@
 <template>
-  <nuxt-link :to="`/news/${id}`" class="text-dec-none">
-    <div class="newContainer bkg-dark mb10">
-      <div class="flex space-between title-card-container">
-        <h3 class="card-title">{{title}}</h3>
-        <p class="card-date">{{date}}</p>
-      </div>
-      <h4 class="mb10">{{subtitle}}</h4>
-      <p class="card-content color-dark">{{content}}</p>
+  <div class="newContainer bkg-dark mb10">
+    <div class="flex space-between title-card-container">
+      <h3 class="card-title">{{title}}</h3>
+      <p class="card-date">{{date}}</p>
     </div>
-  </nuxt-link>
+    <h4 class="mb10">{{subtitle}}</h4>
+    <p class="card-content color-dark">{{content}}</p>
+  </div>
 </template>
 <script>
 // import Navbar from "./Navbar.vue"
@@ -26,10 +24,10 @@ export default {
 
 <style scoped>
 .newContainer {
-  height: 250px;
-  width: 250px;
+  height: 100%;
+  width: calc(100% - 80px);
   color: white;
-  margin: 20px;
+  margin: 40px;
   padding: 10px;
 }
 .title-card-container {

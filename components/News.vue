@@ -9,6 +9,7 @@
         :date="newComponent.date"
         :subtitle="newComponent.subtitle"
         :content="newComponent.content"
+        :id="newComponent.id"
       />
     </div>
   </div>

@@ -5,6 +5,9 @@
 .space-around{
   justify-content: space-around;
 }
+.space-between{
+  justify-content: space-between;
+}
 .wrap{
   flex-wrap: wrap;
 }
@@ -28,6 +31,9 @@
 .bkg-dark{
   background-color: rgb(34, 33, 33);
 }
+.color-dark{
+  color:rgb(34, 33, 33);
+}
 
 
 .mb10{
@@ -35,7 +41,6 @@
 }
 .text-dec-none{
   text-decoration: none;
-  color: black;
 }
 .bold{
   font-weight: 500;
